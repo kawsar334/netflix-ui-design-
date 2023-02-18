@@ -1,0 +1,57 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom,
+                rgba(0, 0, 0, 0) 0%,
+                rgba(0, 0, 0, 1) 100%),
+            url("../../../public/imgs/netflix.jpg");
+        background-size: cover;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .loginForm{
+            width: 400px ;
+            background-color: #000;
+            padding: 20px 10px ;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px ;
+            input{
+                padding: 10px ;
+                border: 1px solid white;
+                border-radius: 5px ;
+                color: black;
+            }
+            button{
+                background-color: red;
+                padding: 10px 30px ;
+                border-radius: 5px ;
+                cursor: pointer;
+                color: white;
+                font-weight: 700;
+                text-transform: capitalize;
+            }
+            p{
+                color: white;
+                a{
+                    color: white;
+                    font-size: 13px ;
+                    color: cadetblue;
+                    cursor: pointer;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+            span{
+                padding: 10px 50px ;
+                text-align: center;
+                font-size: 14px ;
+            }
+        }
+
+}

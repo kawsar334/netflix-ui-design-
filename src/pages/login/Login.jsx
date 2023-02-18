@@ -1,5 +1,6 @@
 import { useRef, useState } from "react"
 import "./login.scss"
+import {Link}  from "react-router-dom";
 
 const Login = () => {
     const [email, setEamil] = useState("")
@@ -12,7 +13,7 @@ const Login = () => {
             <input type="text" name="" placeholder="Email or Phone "/>
             <input type="password" name="" placeholder="Password" />
             <button>Signin </button>
-            <p>New to Netflix ? <a href="/register">Sign up now </a></p>
+            <p>New to Netflix ? <Link to="/register">Sign up now </Link></p>
             <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, obcaecati! </span>
 
           </form>

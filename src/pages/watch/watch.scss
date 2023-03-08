@@ -1,3 +1,6 @@
+@import "../../global.scss";
+
+
 .watch{
     width: 100vw;
     height: 100vh;
@@ -11,8 +14,8 @@
         color: white;
         cursor: pointer;
         z-index: 2;
-
-
+        font-size: 40px;
+        
     }
     .video{
         width: 100%;

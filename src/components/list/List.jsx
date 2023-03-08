@@ -15,7 +15,7 @@ const List = () => {
         <div className="wrapper">
 
           
-              <Slider dots slidesToShow={6} className="container" arrowsScroll={2} autoplay={true} autoplaySpeed={6000}>
+              <Slider dots slidesToShow={5} className="container" arrowsScroll={2} autoplay={true} autoplaySpeed={6000}>
                 
                  <ListItem />
                   <ListItem />

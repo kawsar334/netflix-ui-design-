@@ -1,3 +1,6 @@
+
+@import "../../global.scss";
+
 .featured{
     height: 90vh;
     position: relative;
@@ -42,6 +45,11 @@
         .desc{
             margin: 20px 0px ;
             font-size: 16px;
+            width: 400px;
+            @include mobile{
+                padding: 10px;
+                
+            }
 
         }
         .buttons{
